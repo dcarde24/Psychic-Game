@@ -1,0 +1,20 @@
+html {
+    background-image: url(https://www.vanpraagh.com/wp-content/uploads/unstuck.jpg);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: 1535px 1220px;
+    background-position: center;
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+#container {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 20px;
+}
