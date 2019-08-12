@@ -27,7 +27,7 @@ document.addEventListener("keypress", function(event){
     
 
     if (userGuess === compGuess) {
-        alert("you win. letter was " + userGuess)
+        alert("You win. Letter was " + userGuess)
         wins = wins + 1
         reset()
         
@@ -35,7 +35,7 @@ document.addEventListener("keypress", function(event){
         guesses = guesses - 1
 
         if (guesses <= 0) {
-            alert("you lose. letter was " + compGuess)
+            alert("You lose. Letter was " + compGuess)
             losses = losses + 1
             reset()
         }
